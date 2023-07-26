@@ -1,0 +1,48 @@
+.Navbar{
+    height: 56px;
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #eee;
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,.2),0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12);
+    position: relative
+}
+.Navbar div.Navbar-logo{
+    width: 36px;
+    height: 36px;
+}
+.Navbar div.Navbar-logo img{
+    width: 100%;
+    height: 100%;
+}
+.Navbar span{
+    display: inline-block;
+    width: 74%;
+    color: #616161;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: .02em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.Navbar .download-button{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Navbar .download-button a{
+    color: rgb(78, 78, 78);
+    font-size: 16px;
+}
+.Navbar .download-button a img{
+    width: 100%;
+    height: 100%;
+}

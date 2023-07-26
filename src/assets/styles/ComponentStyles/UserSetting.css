@@ -1,0 +1,39 @@
+.user-navHide{
+    display: none;
+}
+div.user-nav{
+    margin: 0;
+    padding: 8px 0;
+    background: #fff;
+    margin-top: 2px;
+}
+ul.userNav-items{
+    padding-left: 0;
+}
+ul.userNav-items li{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px;
+    box-sizing: border-box;
+}
+ul.userNav-items li ol{
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+}
+ul.userNav-items li ol img{
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+}
+ul.userNav-items li ol span{   
+    font-size: 16px;
+    color: #4e4e4e;
+}
+ul.userNav-items li ol i{
+    font-size: 16px;
+    color: #757575;
+}

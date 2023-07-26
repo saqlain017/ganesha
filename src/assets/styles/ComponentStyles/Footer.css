@@ -1,0 +1,36 @@
+.Footer{
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 14px 2px rgba(0,0,0,.12);
+}
+ul.footer-links{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul.footer-links li{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.footer-links li img{
+    width: 18px;
+    height: 18px;
+}
+li.ShowWin{
+    display: inherit;
+}
+ul.footer-links li.HideWin{
+    display: none;
+}
